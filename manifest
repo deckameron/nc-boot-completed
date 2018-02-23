@@ -2,18 +2,17 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0
-apiversion: 2
-architectures: armeabi armeabi-v7a x86
+version: 2.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86
 description: Android BOOT_COMPLETED handler
 author: azwan082
 license: Apache License 2.0
 copyright: Copyright (c) 2015 by noodlecode.net
 
-
 # these should not be edited
 name: nc-boot-completed
 moduleid: nc.bootcompleted
-guid: 41b010a5-c519-43e5-8baf-80ef07a86cc8
+guid: e5480bf7-01d7-49b7-a53d-afe4cec05577
 platform: android
-minsdk: 3.5.1.GA
+minsdk: 7.0.0.GA
